@@ -1,5 +1,5 @@
 # tymeleaf의 템플릿을 이용한 간단한 페이지 java코드
----java
+'''java
 package hello.hellospring.controller;
 
 import org.springframework.stereotype.Controller;
@@ -17,4 +17,4 @@ public class HelloController {
         return "hello";
     }
 }
----
+'''
