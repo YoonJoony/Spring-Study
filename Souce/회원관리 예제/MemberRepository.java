@@ -1,4 +1,3 @@
-```java
 //회원 리포지토리 인터페이스
 package hello.hellospring.repository;
 
@@ -14,4 +13,4 @@ public interface MemberRepository {
     Optional<Member> findByName(String name);
     List<Member> findAll(); //지금까지 저장된 모든 회원 리스트 반환
 }
-```
+
